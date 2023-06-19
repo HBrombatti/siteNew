@@ -1,0 +1,179 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'PT Serif', serif;
+  margin: 0;
+
+
+}
+
+
+
+.header {
+  padding: 80px;
+  text-align: center;
+  background-color: #EEC7FC;
+  font-family: 'Philosopher', sans-serif;
+}
+
+.header h1 {
+  font-size: 72pt;
+  font-style: oblique;
+  color: #290c10;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #290c10;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #EEC7FC;
+  text-align: center;
+  padding: 14px 20px;
+
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a:hover {
+  background-color: #754949;
+  color: rgb(214, 202, 202);
+}
+
+.row {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 40%;
+  background-color: #f373a49a;
+  padding: 40px;
+}
+
+.side .image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+  width: 100%;
+  height: 250px;
+}
+
+.main p {
+  font-size: 13pt;
+  text-align: justify;
+}
+
+.side p {
+  font-size: 13pt;
+  text-align: justify;
+  margin: 10%;
+}
+
+.side h3 {
+  font-weight: bold;
+}
+
+.my-slide {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  width: 80%;
+  height: 250px;
+  margin: 70px;
+
+}
+
+.my-slide2 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  width: 80%;
+  height: 250px;
+  margin: 70px;
+
+
+}
+
+.my-slide3 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  width: 80%;
+  height: 250px;
+  margin: 70px;
+}
+
+.my-slide4 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  width: 80%;
+  height: 250px;
+  margin: 70px;
+
+}
+
+.main {
+  -ms-flex: 60%;
+  flex: 60%;
+  background-color: #f373a49a;
+  padding-left: 50px;
+  padding-right: 45px;
+}
+
+.main .image {
+  background-color: rgba(243, 218, 188, 0.253);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+  height: 100%;
+  width: 1450px;
+}
+
+.main .image {
+  width: 100%;
+  height: 250px;
+}
+
+
+
+.footer {
+  display: flex;
+  background: #cca1a1;
+  padding: 50px;
+}
+
+.footer-section {
+  margin-right: 7px;
+  width: 30vw;
+}
+
+.footer-section p a {
+  font-size: small;
+}
+
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
